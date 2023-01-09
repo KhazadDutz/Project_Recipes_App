@@ -1,0 +1,80 @@
+.profile-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.profile-button {
+  background-color: rgb(92, 89, 89);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  width: 300px;
+}
+
+.email-profile {
+  font-weight: 700;
+  text-align: center;
+}
+
+.favorite-recipes-buttons-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.favorite-recipes-buttons {
+  background-color: rgb(92, 89, 89);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.favorite-recipes-container {
+  background-color: rgb(209, 205, 205);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.favorite-recipes-cards {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.profile-recipe-name {
+  color: black;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.profile-area-name {
+  margin: 0;
+  width: 80px;
+}
+
+.profile-icons {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 15px;
+  width: 40px;
+}
