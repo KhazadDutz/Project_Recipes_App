@@ -1,13 +1,12 @@
-import React from 'react';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Routes from './routes/Routes';
 
+import Youtube from "./Youtube";
 function App() {
   return (
-    <div className="app">
-      <Routes />
-    </div>
+    <>
+    <h1>classic react app</h1>
+    <Youtube />
+    </>
   );
 }
+
 export default App;
