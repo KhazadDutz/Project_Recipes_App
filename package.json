@@ -7,7 +7,7 @@
     "newrelic": "^12.9.0"
   },
   "scripts": {
-      "start": "node -r newrelic server.js"
+      "start": "node server.js"
   },
   "browserslist": {
     "production": [
